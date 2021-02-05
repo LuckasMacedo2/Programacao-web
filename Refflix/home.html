@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    REFFLIX
+  </title>
+
+  <!-- Importa o bootstrap -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .checked {
+      color: orange;
+    }
+  </style>
+
+  <!-- Logo -->
+  <center>
+    <br>
+    <img src="img/logo.png" width="400" height="150" class="rounded mx-auto d-block" >
+    <br>
+    <br>
+  </center>
+  
+</head>
+<body>
+
+   <!--mudando o fundo para preto--> 
+  <body style="background-color:black;"></body>
+
+    <!-- Lista horizontal-->
+    <!-- Lista com os botões e informações do site-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="home.html">Home</a></li>
+            
+            <!-- Cadastro e Login -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="cadastro.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <li><a href="pudim.html"><span class="glyphicon glyphicon-log-in"></span> Informações</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <!-- Fim Lista horizontal-->
+
+      <!-- Bem Vindo --> 
+      <div class="container" >
+        
+        <div class="jumbotron"   style="background-image: url(img/bem_vindo.jpg); background-size: auto 100%; " >
+            <center>
+                <h1 class="stroke"> <FONT COLOR = "white"> BEM VINDO! </FONT></h1> 
+                    <style>
+                          .stroke {
+                            -webkit-text-stroke: 2px black;
+                             font-size: 10rem;
+                          }
+                    </style>  
+                <hr class="my-4">
+               </center>
+        </div>   
+      </div>
+
+      <!-- Mensagem motivacional -->
+      <center>
+        <p> 
+          <FONT COLOR = "white"> REFFLIX é um site para você aproveitar seus animes favoritos </FONT>
+        </p>
+      </center>
+
+      <!-- Lista de Animes -->
+      <div class="container">
+
+        <font size="12" face="Georgia"></font>
+        <h2 style="color: #87CEEB">Animes</h2>
+        
+        <font size="4" face="Times New Roman"></font>
+
+        <!-- Panel Bleach -->
+        <br>        
+          <div class="panel panel-default" > 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/Bleach_img.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Bleach
+              </h1>
+              
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+            <br>
+            <br>
+
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/Bleach.mp4"> 
+                <button class="btn btn-success" style="margin-left: 20px;">
+                  Assistir Online
+              </form>
+            </a></div>
+            
+            <div class="panel-body" style="margin-left: 370px;">
+              Acompanhe as aventuras do Shinigami Substituto, Kurosaki Ichigo, tentando salvar seus amigos e o mundo.
+              <br>
+              Categoria: Shounen 
+            </div>
+
+          </div>
+
+          <!-- Panel Fullmetal Alchemist -->		  
+          <font size="4" face="Times New Roman"></font>
+          <br>
+          <div class="panel panel-default"> 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/FMAB_img.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Full Metal Alchemist: Brotherhood
+              </h1>
+
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+            <br>
+            <br>
+
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/FMAB_Again.mp4"> 
+              <button class="btn btn-success" style="margin-left: 20px;">
+                Assistir Online
+            </form>
+            </a></div>
+
+            <div class="panel-body" style="margin-left: 370px;">
+              Acompanhe as aventuras dos irmãos Elric em busca de tudo o que perderam.
+              <br>
+              Categoria: Shounen 
+            </div>
+
+          </div>
+
+          <!-- Panel Gintama -->      
+          <br>
+          <font size="4" face="Times New Roman"></font>
+          <div class="panel panel-default"> 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/Gintama_img.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Gintama
+              </h1>
+              
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+
+            <br>
+            <br>
+
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/Gintama.mp4"> 
+              <button class="btn btn-success" style="margin-left: 20px;">
+                Assistir Online
+            </form>
+            </a></div>
+
+            <div class="panel-body" style="margin-left: 370px;">
+              Acompanhe o trio Yorozuya fazendo qualquer coisa por dinheiro. 
+              <br>
+              Categoria: Shounen 
+            </div>
+
+          </div>
+
+          <!-- Panel Kanata no Astra -->      
+          <br>
+          <font size="4" face="Times New Roman"></font>
+
+          <div class="panel panel-default"> 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/Kanata_astra_img.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Kanata no Astra
+              </h1>
+
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+            <br>
+            <br>
+
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/Kanata_no_Astra.mp4"> 
+              <button class="btn btn-success" style="margin-left: 20px;">
+                Assistir Online
+            </form>
+            </a></div>
+
+            <div class="panel-body" style="margin-left: 370px;">
+              Uma viagem pelo espaço na nave Astra.
+              <br>
+              Categoria: Shounen 
+            </div>
+
+          </div>
+
+          <!-- Panel Kimetsu -->
+          <br>
+          <font size="4" face="Times New Roman"></font>
+          
+          <div class="panel panel-default"> 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/Kimetsu_img.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Kimetsu no Yaba
+              </h1>
+
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+            <br>
+            <br>
+
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/Kimetsu.mp4"> 
+              <button class="btn btn-success" style="margin-left: 20px;">
+                Assistir Online
+            </form>
+            </a></div>
+
+            <div class="panel-body" style="margin-left: 370px;">
+              Acompanhe Kamada Tanjirou na luta contra os Onis.
+              <br>
+              Categoria: Shounen 
+            </div>
+          </div>          
+          
+          <!-- Panel Relife-->
+          <br>
+          <font size="4" face="Times New Roman"></font>
+
+          <div class="panel panel-default"> 
+
+            <div class="panel-heading list-group-item d-flex align-items-center justify-content-between list-group-item-action mb-1 shadow-sm rounded-0">
+
+              <!-- Imagem-->
+              <p style="float: left;">
+                <img class="img-responsive" src="img/Animes/Relife.png" class="img-rounded" id="Panel_Image" width="350" height="150">              
+              </p>
+
+              <h1 style="margin-left: 370px;">
+                Relife
+              </h1>
+
+              <!-- Estrelas -->
+              <span class="fa fa-star checked" style="margin-left: 25px;"></span> 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+
+            <br>
+            <br>
+            <!-- Vídeo -->
+            <a href="video.html?v=videos/RELIFE.mp4"> 
+              <button class="btn btn-success" style="margin-left: 20px;">
+                Assistir Online
+            </form>
+            </a></div>
+
+            <div class="panel-body" style="margin-left: 370px;">
+              Acompanhe Kaizaki Arata em busca de um novo emprego
+              <br>
+              Categoria: Shounen 
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      
+
+</body>
+
+<div align = "right">
+<img src="img/logoref.png" width="400" height="150">
+
+</html>
