@@ -14,4 +14,4 @@ This repository contains the refflix project, an anime streaming site. The proje
 This project was done in partnership with: 
 * Danilo Dias Costa; 
 * Higor Alves Ferreira; 
-* Vitor de Almeida Silva (Github: https:
+* Vitor de Almeida Silva (Github: https://github.com/Vitor0534/)
