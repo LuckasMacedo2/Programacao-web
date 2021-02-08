@@ -1,0 +1,76 @@
+.card .btn-danger {
+    margin-left: 20px;
+}
+
+.card{
+    color: white;
+    border: solid 5px rgb(87, 180, 187);
+
+    margin-bottom: 15px;
+}
+
+.card .card-title{
+    color: black;
+}
+
+#btn-switch-mode{
+    float: right;
+}
+
+
+.container{
+    padding-top: 50px;
+}
+
+.buttonAddContainer{
+    margin-bottom: 25px;
+}
+
+/* Treme elementos
+Animação   */
+
+.form input.error{
+    -webkit-animation: shake 0.2s ease-in-out 0s 2;
+    animation: shake 0.2s ease-in-out 0s 2;
+    box-shadow: 0 0 0.5em red;
+}
+
+.image{
+    width: 250px;
+    height: 200px;
+}
+
+.card-img-top{
+    width: 250px;
+}
+
+
+@-webkit-keyframes shake{
+    0% {
+        margin-left: 0rem;
+    }
+    25% {
+        margin-left: 0.5rem;
+    }
+    75% {
+        margin-left: -0.5rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0rem;
+    }
+    25% {
+        margin-left: 0.5rem;
+    }
+    75% {
+        margin-left: -0.5rem;
+    }
+    100% {
+        margin-left: 0rem;
+    }
+}
