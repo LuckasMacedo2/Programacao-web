@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Notebook Gamer",
+      "price": "10000000"
+    },
+    {
+      "id": 3,
+      "name": "Smartphone Gamer",
+      "price": 3000
+    },
+    {
+      "name": "Abacaxi",
+      "price": "1500",
+      "id": 4
+    },
+    {
+      "name": "Assdada",
+      "price": "15000",
+      "id": 5
+    }
+  ]
+}
