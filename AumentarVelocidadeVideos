@@ -1,1 +1,5 @@
+1. Abrir vídeo
+2. Abrir console do navegador
+3. Digitar o comando abaixo e pressionar enter
+
 window.open((document.getElementsByTagName('iframe')[0].attributes.src.value).replace('controls=0', 'controls=1'))
