@@ -1,0 +1,6 @@
+1. Acessar o jogo do dino no google chrome
+   Pode ser acessado ao ficar sem internet ou através de chrome://dino/
+2. Abrir o console do navegador (F12)
+3. Digitar
+   Runner.instance_.gameOver = () => {}
+   e apertar enter
